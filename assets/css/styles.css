@@ -1,0 +1,129 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: #d6d8d3;
+    border-width: 1px;
+}
+
+.contactos {
+    border-style: solid;
+    border-color: #d6d8d3;
+    border-width: 1px;
+}
+
+.boton-chat {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: #d6d8d3;
+    border-width: 1px;
+    padding: 40px 0;
+}
+
+.avatar-principal {
+    margin-left: 30px;
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.chat-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.avatar {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border-style: 2px solid;
+}
+
+.card-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d6d8d3;
+}
+
+.card-text {
+    margin: 0;
+    margin-left: 20px;
+    flex-basis: 50%;
+}
+
+.card-text p {
+    font-size: 12px;
+    color: #949697;
+}
+
+.card-text h3 {
+    font-size: 15px;
+    color: #595b5c;
+    margin-bottom: -5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a491d2;
+    color: white;
+    border-color: #a491d2;
+    border: none;
+    cursor: pointer;
+    min-height: 45px;
+    min-width: 180px;
+    font-size: 18px;
+}
+
+.menu-center {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f7ee;
+    align-items: center;
+    flex-grow: 3;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mano {
+    margin-top: 50px;
+    width: 250px;
+}
+
+.contenedor-centro h1 {
+    font-size: 50px;
+}
+
+.subtitulo {
+    width: 60%;
+    font-size: 20px;
+    margin-top: -25px;
+}
